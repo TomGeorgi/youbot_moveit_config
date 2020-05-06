@@ -13,7 +13,7 @@
         <chain base_link="arm_link_0" tip_link="arm_link_5" />
     </group>
     <group name="youbot_gripper">
-        <!--<joint name="gripper_palm_joint" />-->
+        <joint name="gripper_palm_joint" />
         <joint name="gripper_finger_joint_l" />
         <joint name="gripper_finger_joint_r" />
     </group>
