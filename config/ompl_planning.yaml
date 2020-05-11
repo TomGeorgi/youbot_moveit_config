@@ -146,6 +146,8 @@ youbot_arm:
     - LazyPRMstar
     - SPARS
     - SPARStwo
+  projection_evaluator: joints(arm_joint_1,arm_joint_2)
+  longest_valid_segment_fraction: 0.005
 youbot_gripper:
   default_planner_config: ""
   planner_configs:

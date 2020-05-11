@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: Tom Georgi
     author_email: Tom.Georgi@htwg-konstanz.de
-    generated_timestamp: 1588260772
+    generated_timestamp: 1589198363
