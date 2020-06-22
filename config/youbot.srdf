@@ -47,6 +47,13 @@
         <joint name="arm_joint_4" value="3.5" />
         <joint name="arm_joint_5" value="2.92" />
     </group_state>
+    <group_state name="bottle_detect_position" group="youbot_arm">
+        <joint name="arm_joint_1" value="3.00" />
+        <joint name="arm_joint_2" value="0.95" />
+        <joint name="arm_joint_3" value="-2.5" />
+        <joint name="arm_joint_4" value="3.5" />
+        <joint name="arm_joint_5" value="2.92" />
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="hand_eef" parent_link="arm_link_5" group="youbot_gripper" parent_group="youbot_arm" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
