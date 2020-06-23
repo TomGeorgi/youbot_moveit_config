@@ -48,10 +48,10 @@
         <joint name="arm_joint_5" value="2.92" />
     </group_state>
     <group_state name="bottle_detect_position" group="youbot_arm">
-        <joint name="arm_joint_1" value="3.00" />
-        <joint name="arm_joint_2" value="0.95" />
-        <joint name="arm_joint_3" value="-2.5" />
-        <joint name="arm_joint_4" value="3.5" />
+        <joint name="arm_joint_1" value="2.95" />
+        <joint name="arm_joint_2" value="0.51" />
+        <joint name="arm_joint_3" value="-1.4" />
+        <joint name="arm_joint_4" value="3.58" />
         <joint name="arm_joint_5" value="2.92" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
