@@ -51,7 +51,14 @@
         <joint name="arm_joint_1" value="2.95" />
         <joint name="arm_joint_2" value="0.51" />
         <joint name="arm_joint_3" value="-1.4" />
-        <joint name="arm_joint_4" value="3.58" />
+        <joint name="arm_joint_4" value="3.29" />
+        <joint name="arm_joint_5" value="2.92" />
+    </group_state>
+    <group_state name="cup_detect_position" group="youbot_arm">
+        <joint name="arm_joint_1" value="2.95" />
+        <joint name="arm_joint_2" value="0.0" />
+        <joint name="arm_joint_3" value="-1.0" />
+        <joint name="arm_joint_4" value="3.29" />
         <joint name="arm_joint_5" value="2.92" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
@@ -59,13 +66,9 @@
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="virtual_joint" type="planar" parent_frame="odom" child_link="base_footprint" />
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
-    <passive_joint name="caster_joint_bl" />
     <passive_joint name="wheel_joint_bl" />
-    <passive_joint name="caster_joint_br" />
     <passive_joint name="wheel_joint_br" />
-    <passive_joint name="caster_joint_fl" />
     <passive_joint name="wheel_joint_fl" />
-    <passive_joint name="caster_joint_fr" />
     <passive_joint name="wheel_joint_fr" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="arm_link_0" link2="arm_link_1" reason="Adjacent" />
