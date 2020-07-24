@@ -41,7 +41,7 @@
         <joint name="arm_joint_5" value="2.9719" />
     </group_state>
     <group_state name="seek_position" group="youbot_arm">
-        <joint name="arm_joint_1" value="3.00" />
+        <joint name="arm_joint_1" value="2.95" />
         <joint name="arm_joint_2" value="0.95" />
         <joint name="arm_joint_3" value="-2.5" />
         <joint name="arm_joint_4" value="3.5" />
@@ -64,7 +64,7 @@
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="hand_eef" parent_link="arm_link_5" group="youbot_gripper" parent_group="youbot_arm" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
-    <virtual_joint name="virtual_joint" type="planar" parent_frame="odom" child_link="base_footprint" />
+    <virtual_joint name="virtual_joint" type="planar" parent_frame="map" child_link="base_footprint" />
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
     <passive_joint name="wheel_joint_bl" />
     <passive_joint name="wheel_joint_br" />
